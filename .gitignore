@@ -1,0 +1,45 @@
+# IDEs and Editors
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Build and Dependencies
+target/
+build/
+node_modules/
+dist/
+.gradle/
+.mvn/
+bin/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs and Temp
+*.log
+tmp/
+temp/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Service Specific (based on README)
+# These will ignore common build artifacts within service directories if they are added
+**/target/
+**/build/
+**/bin/
+**/node_modules/
+**/dist/
+
+# Test Reports
+**/build/reports/
+**/target/surefire-reports/
+
+# Docker
+.docker/
+docker-compose.override.yml
